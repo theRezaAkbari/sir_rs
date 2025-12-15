@@ -3,3 +3,4 @@ ccxt
 python-telegram-bot
 schedule
 flask
+pandas
