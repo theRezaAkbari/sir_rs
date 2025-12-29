@@ -18,7 +18,7 @@ RSI_PRINT_INTERVAL = 60      # هر 1 دقیقه برای چاپ RSI در ترم
 PRICE_SEND_INTERVAL = 3600   # ✅ هر 1 ساعت ارسال قیمت/RSI به تلگرام
 
 # آستانه‌های کراس
-CROSS_LEVELS = [ 40, 60]
+CROSS_LEVELS = [ 30, 70]
 
 # =============== توابع تحلیل ===============
 def get_kucoin_candles(symbol, interval, limit=1200):
@@ -174,3 +174,5 @@ if __name__ == '__main__':
 
     # اجرای سرور Flask
     app.run(host="0.0.0.0", port=10000)
+
+
